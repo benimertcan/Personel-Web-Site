@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dark{
+    background-color: black;
+    transition: all .3s ease-in-out
+}
+body{
+    transition: all .3s ease-in-out
+}
