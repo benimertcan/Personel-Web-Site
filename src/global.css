@@ -4,10 +4,9 @@
 
 .dark{
     background-color:  #2A262B;
-    
-    transition: all .3s ease-in-out
+    transition: all .5s 
 }
 body{
     background-color: #F4F4F4;
-    transition: all .3s ease-in-out
+    transition: all .5s
 }

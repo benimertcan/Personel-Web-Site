@@ -1,14 +1,18 @@
 const languagesData={
     en:{
-        changeLanguage:"TÜRKÇE'YE GEÇ",
+        changeLanguage:"TÜRKÇE",
         hero:{
-            greeting:"Hi!👋",
+            greeting:"Hi! 👋",
             intro:"I'm Mertcan. I'm a front-end developer.I can craft solid and scalable front-end products. Let's meet!",
-            profileImg:"",
+            profileImg:"src/assets/images/profile_picure.JPG",
             profileName:"Mertcan",
-            linkedInLink:"",
-            githubLink:"",
-            heroFooter:"Currently Freelancing for UX,UI, & Web Design Project. Invite me to join your team -> pratamaosi@gmail.com",
+            linkedInSVG:"src/assets/images/linkedIn.SVG",
+            linkedInLink:"https://www.linkedin.com/in/mertcan-kurt-69b22b227/",
+            githubSVG:"src/assets/images/github.SVG",
+            githubLink:"https://github.com/benimertcan",
+            heroFooter:"Currently Freelancing for UX,UI, & Web Design Project.",
+            heroFooter2:"Invite me to join your team -> ",
+            heroFooterMail:"mertcankurt25@gmail.com",
         },
         skills:{
             javascriptAlt:"JAVASCRIPT",
@@ -77,15 +81,19 @@ const languagesData={
         }
     },
     tr:{
-        changeLanguage:"SWITCH TO ENGLISH",
+        changeLanguage:"ENGLISH",
         hero:{
-            greeting:"Merhaba!👋",
+            greeting:"Merhaba! 👋",
             intro:"Ben Mertcan. Ben bir ön yüz geliştiricisiyim. Sağlam ve ölçeklenebilir ön yüz ürünleri oluşturabilirim. Tanışalım!",
-            profileImg:"",
+            profileImg:"src/assets/images/profile_picure.JPG",
             profileName:"Mertcan",
-            linkedInLink:"",
-            githubLink:"",
-            heroFooter:"Şu anda UX, UI ve Web Tasarım projeleri için serbest çalışıyorum. Beni ekibinize davet edin ->pratamaosi@gmail.com",
+            linkedInSVG:"src/assets/images/linkedIn.SVG",
+            linkedInLink:"https://www.linkedin.com/in/mertcan-kurt-69b22b227/",
+            githubSVG:"src/assets/images/github.SVG",
+            githubLink:"https://github.com/benimertcan",
+            heroFooter:"Şu anda UX, UI ve Web Tasarım projeleri için serbest çalışıyorum.",
+            heroFooter2:"Beni ekibinize davet edin -> ",
+            heroFooterMail:"mertcankurt25@gmail.com",
         },
         skills:{
             javascriptAlt:"JAVASCRIPT",
