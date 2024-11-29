@@ -1,4 +1,6 @@
 import { useLanguage } from "../context/LanguageContext";
+import LanguageChanger from "./LanguageChanger";
+import ModeComponent from "./ModeComponent";
 
 
 
@@ -8,7 +10,13 @@ function Header() {
 
     return (
         <>
-            <header className="text-left my-16 min-w-96 duration-500 bg-[#F4F4F4] dark:text-[#FFFFFF] dark:bg-[#2A262B]">
+        
+            <header className="text-left px-32 py-24 duration-500 bg-[#F4F4F4] dark:text-[#FFFFFF] dark:bg-[#2A262B]">
+            <div className='flex flex-row justify-self-end'>
+              <ModeComponent />
+              <p className='font-semibold mx-3'>| </p>
+              <LanguageChanger />
+            </div>
                 <div className="flex flex-row ">
                     <div className="w-45">
                         <h1 className="font-normal text-3xl leading-9 tracking-wide">{hero.greeting}</h1>
