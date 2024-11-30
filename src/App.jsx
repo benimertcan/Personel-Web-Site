@@ -8,6 +8,7 @@ import axios from 'axios';
 import LanguageChanger from './components/LanguageChanger';
 import Header from './components/Header';
 import Skills from './components/Skills';
+import Profile from './components/Profile';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <LanguageProvider >
         <Header />
         <Skills />
+        <Profile/>
       </LanguageProvider>
     </>
   )

@@ -15,20 +15,37 @@ const languagesData = {
             heroFooterMail: "mertcankurt25@gmail.com",
         },
         skills: {
-            javascriptAlt: "JAVASCRIPT",
-            javascriptSRC: "src/assets/images/javascript.png",
-            reactAlt: "REACT",
-            reactSRC: "src/assets/images/react.png",
-            reduxAlt: "REDUX",
-            reduxSRC: "src/assets/images/redux.png",
-            nodeAlt: "NODE",
-            nodeSRC: "src/assets/images/node.png",
-            vscodeAlt: "VS CODE",
-            vscodeSRC: "src/assets/images/vscode.png",
-            figmaAlt: "FIGMA",
-            figmaSRC: "src/assets/images/figma.png",
-        },
+            h1: "Skills",
+            images: [
+                 {
+                    Alt: "JAVASCRIPT",
+                    SRC: "src/assets/images/javascript.png",
+                },
+                 {
+                    Alt: "REACT",
+                    SRC: "src/assets/images/react.png",
+                },
+                 {
+                    Alt: "REDUX",
+                    SRC: "src/assets/images/redux.png",
+                },
+                {
+                    Alt: "NODE",
+                    SRC: "src/assets/images/node.png",
+                },
+                {
+                    Alt: "VS CODE",
+                    SRC: "src/assets/images/vscode.png",
+                },
+                {
+                    Alt: "FIGMA",
+                    SRC: "src/assets/images/figma.png",
+                }
+            ]  
+        }
+        ,
         profile: {
+            profileText:"Profile",
             cart: {
                 h1: "Basic Information",
                 dateOfBirthText: "Date of Birth",
@@ -38,12 +55,12 @@ const languagesData = {
                 educationText: "Educational background",
                 education: "Namık Kemal Üniversitesi, Bilgisayar Programcılığı",
                 rolText: "Preferred Role",
-                rol: "FrontEnd,UI"
+                rol: "Frontend, UI"
             },
             about: {
                 aboutMe: "About me",
                 text1: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi molitia.",
-                text2: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi molitia."
+                text2: "Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam! "
             }
         },
         projects: {
@@ -96,20 +113,37 @@ const languagesData = {
             heroFooterMail: "mertcankurt25@gmail.com",
         },
         skills: {
-            javascriptAlt: "JAVASCRIPT",
-            javascriptSRC: "src/assets/images/javascript.png",
-            reactAlt: "REACT",
-            reactSRC: "src/assets/images/react.png",
-            reduxAlt: "REDUX",
-            reduxSRC: "src/assets/images/redux.png",
-            nodeAlt: "NODE",
-            nodeSRC: "src/assets/images/node.png",
-            vscodeAlt: "VS CODE",
-            vscodeSRC: "src/assets/images/vscode.png",
-            figmaAlt: "FIGMA",
-            figmaSRC: "src/assets/images/figma.png",
-        },
+            h1: "Yetenekler",
+            images: [
+                 {
+                    Alt: "JAVASCRIPT",
+                    SRC: "src/assets/images/javascript.png",
+                },
+                 {
+                    Alt: "REACT",
+                    SRC: "src/assets/images/react.png",
+                },
+                 {
+                    Alt: "REDUX",
+                    SRC: "src/assets/images/redux.png",
+                },
+                {
+                    Alt: "NODE",
+                    SRC: "src/assets/images/node.png",
+                },
+                {
+                    Alt: "VS CODE",
+                    SRC: "src/assets/images/vscode.png",
+                },
+                {
+                    Alt: "FIGMA",
+                    SRC: "src/assets/images/figma.png",
+                }
+            ]
+        }
+        ,
         profile: {
+            profileText:"Profil",
             cart: {
                 h1: "Temel Bilgiler",
                 dateOfBirthText: "Doğum tarihi",
@@ -119,12 +153,12 @@ const languagesData = {
                 educationText: "Eğitim Durumu",
                 education: "Namık Kemal Üniversitesi, Bilgisayar Programcılığı",
                 rolText: "Tercih Ettiği Rol",
-                rol: "FrontEnd,UI"
+                rol: "Frontend, UI"
             },
             about: {
                 aboutMe: "Hakkımda",
                 text1: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi molitia.",
-                text2: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi molitia."
+                text2: "Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam! "
             }
         },
         projects: {

@@ -32,7 +32,7 @@ export const LanguageProvider = ({ children }) => {
   }, [language]);
   
   if (loading) {
-    return <div className='text-sky-800 font-semibold'>LOADİNG.....</div>;
+    return <div className='text-sky-800 font-semibold flex  text-center justify-self-center place-self-center'>LOADİNG.....</div>;
   }
   
 

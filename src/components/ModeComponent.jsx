@@ -35,7 +35,7 @@ function ModeComponent() {
     }
     return (
         <>
-            <div className="flex flex-row items-center  text-opacity-10 text-[#777777]" onClick={() => darkModeHandler()} >
+            <div className="flex flex-row items-center hover:animation-pulse text-opacity-10 text-[#777777]" onClick={() => darkModeHandler()} >
                 <div className="mr-3 w-14 flow-root dark:bg-black bg-[#E92577] rounded-2xl transition duration-700 ">
                     {
                         dark ?
