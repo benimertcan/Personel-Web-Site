@@ -6,7 +6,7 @@ const languagesData = {
             intro: "I'm Mertcan. I'm a front-end developer. I can craft solid and scalable front-end products. Let's meet!",
             profileImg: "src/assets/images/profile_picure.JPG",
             profileName: "Mertcan",
-            linkedInSVG: "src/assets/images/linkedIn.SVG",
+            linkedInSVG: "/src/assets/images/linkedIn.SVG",
             linkedInLink: "https://www.linkedin.com/in/mertcan-kurt-69b22b227/",
             githubSVG: "src/assets/images/github.SVG",
             githubLink: "https://github.com/benimertcan",
@@ -19,27 +19,27 @@ const languagesData = {
             images: [
                  {
                     Alt: "JAVASCRIPT",
-                    SRC: "src/assets/images/javascript.png",
+                    SRC: "/src/assets/images/javascript.png",
                 },
                  {
                     Alt: "REACT",
-                    SRC: "src/assets/images/react.png",
+                    SRC: "/src/assets/images/react.png",
                 },
                  {
                     Alt: "REDUX",
-                    SRC: "src/assets/images/redux.png",
+                    SRC: "/src/assets/images/redux.png",
                 },
                 {
                     Alt: "NODE",
-                    SRC: "src/assets/images/node.png",
+                    SRC: "/src/assets/images/node.png",
                 },
                 {
                     Alt: "VS CODE",
-                    SRC: "src/assets/images/vscode.png",
+                    SRC: "/src/assets/images/vscode.png",
                 },
                 {
                     Alt: "FIGMA",
-                    SRC: "src/assets/images/figma.png",
+                    SRC: "/src/assets/images/figma.png",
                 }
             ]  
         }
@@ -102,11 +102,11 @@ const languagesData = {
         hero: {
             greeting: "Merhaba! 👋",
             intro: "Ben Mertcan. Ben bir ön yüz geliştiricisiyim. Sağlam ve ölçeklenebilir ön yüz ürünleri oluşturabilirim. Tanışalım!",
-            profileImg: "src/assets/images/profile_picure.JPG",
+            profileImg: "7src/assets/images/profile_picure.JPG",
             profileName: "Mertcan",
-            linkedInSVG: "src/assets/images/linkedIn.SVG",
+            linkedInSVG: "/src/assets/images/linkedIn.SVG",
             linkedInLink: "https://www.linkedin.com/in/mertcan-kurt-69b22b227/",
-            githubSVG: "src/assets/images/github.SVG",
+            githubSVG: "/src/assets/images/github.SVG",
             githubLink: "https://github.com/benimertcan",
             heroFooter: "Şu anda UX, UI ve Web Tasarım projeleri için serbest çalışıyorum.",
             heroFooter2: "Beni ekibinize davet edin -> ",
@@ -117,27 +117,27 @@ const languagesData = {
             images: [
                  {
                     Alt: "JAVASCRIPT",
-                    SRC: "src/assets/images/javascript.png",
+                    SRC: "/src/assets/images/javascript.png",
                 },
                  {
                     Alt: "REACT",
-                    SRC: "src/assets/images/react.png",
+                    SRC: "/src/assets/images/react.png",
                 },
                  {
                     Alt: "REDUX",
-                    SRC: "src/assets/images/redux.png",
+                    SRC: "/src/assets/images/redux.png",
                 },
                 {
                     Alt: "NODE",
-                    SRC: "src/assets/images/node.png",
+                    SRC: "7src/assets/images/node.png",
                 },
                 {
                     Alt: "VS CODE",
-                    SRC: "src/assets/images/vscode.png",
+                    SRC: "/src/assets/images/vscode.png",
                 },
                 {
                     Alt: "FIGMA",
-                    SRC: "src/assets/images/figma.png",
+                    SRC: "/src/assets/images/figma.png",
                 }
             ]
         }
