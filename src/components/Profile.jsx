@@ -36,7 +36,7 @@ function Profile() {
                     <p className="m-2">{profile.about.text1}</p>
                     <p className="m-2">{profile.about.text2}</p>
                 </div>
-
+                
 
                 </div>
             </section>
