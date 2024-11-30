@@ -10,18 +10,21 @@ function Header() {
 
     return (
         <>
-        
-            <header className="text-left px-[18vw] py-24 duration-500 bg-[#F4F4F4] dark:text-[#FFFFFF] dark:bg-[#2A262B] ">
+            
+            <header className="font-Inter text-left  py-24 duration-500 bg-[#F4F4F4] dark:text-[#FFFFFF] dark:bg-[#2A262B] ">
+            <div className="px-[18vw]">
+            <div className="w-32 h-32 bg-[#D9D9D9] rounded-full -mt-36 ml-24"></div>
             <div className='flex flex-row justify-self-end mb-10'>
               <ModeComponent />
               <p className='font-semibold mx-2'>| </p>
               <LanguageChanger />
             </div>
-            <div className="flex flex-col flex-wrap">
-                <div className="flex flex-row  flex-wrap ">
-                    <div className="w-45">
+            <div className="flex flex-col flex-wrap ">
+                <div className="flex flex-row flex-wrap md:flex-nowrap ">
+                    <div className="w-45 ">
                         <h1 className="font-normal text-3xl leading-9 tracking-wide">{hero.greeting}</h1>
-                        <p className="text-4xl font-medium leading-none tracking-normal mt-2 ">{hero.intro}</p>
+                        <div className="border-b-[24px] -ml-4 rounded-lg border-solid w-48 mt-16 border-[#E92577]"></div>
+                        <p className="text-5xl -mt-16 font-medium leading-snug tracking-normal  ">{hero.profileName}{hero.intro}</p>
                     </div>
                     <div className="bg-[#E92577] pt-4 pl-4 rounded-2xl max-w-64 min-w-44 min-h-44 max-h-64 flex m-10">
                         <img src={hero.profileImg} className="rounded-2xl ms-1 -mb-2"></img>
@@ -30,11 +33,19 @@ function Header() {
                 <div className="flex flex-row mt-10">
                    <a href={hero.linkedInLink} > <img src={hero.linkedInSVG} className="dark:stroke-[#2A262B] dark:fill-[#2A262B] mr-5"></img></a>
                    <a href={hero.githubLink}>  <img src={hero.githubSVG} className="dark:stroke-[#2A262B] dark:fill-[#2A262B]"></img></a>
+                  
                 </div>
                 <p className="mt-5 ">{hero.heroFooter}</p>
                 <p>{hero.heroFooter2}<a className="text-[#E92577]" href={`mailto:${hero.heroFooterMail}`} >{hero.heroFooterMail}</a></p>
                 </div>
+                </div>
+                <div className="w-32 h-16  bg-[#EA2678] rounded-l-full place-self-end"></div>
+                
+           
             </header>
+            
+            
+
         </>
     )
 }

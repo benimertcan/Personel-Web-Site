@@ -8,12 +8,12 @@ function Projects() {
     return (
         <>
             <section className="px-[18vw] py-24 min-h-80  content-center bg-[#FFFFFF] text-center dark:bg-[#484148] dark:text-[#F4F4F4]">
-                <h1 className="text-4xl font-medium tracking-normal">{projects.h1}</h1>
+                <h1 className="my-10 font-medium text-5xl leading-tight tracking-normal">{projects.h1}</h1>
                 <div className="flex flex-row justify-evenly text-left flex-wrap lg:flex-nowrap mt-10">
                     {
                         projects.myProjects.map(project => (
-                            <div key={project.id} className="md:min-w-96  flex flex-col px-3 pt-3 mx-2 mt-3 mb-10 bg-[#DDEEFE] dark:bg-[#2D3235] rounded-xl">
-                                <h1 className="text-3xl font-bold tracking-wide mt-5">{project.h1}</h1>
+                            <div key={project.id} className="md:w-96  flex flex-col px-3 pt-3 mx-2 mt-3 mb-10 bg-[#DDEEFE] dark:bg-[#2D3235] rounded-xl">
+                                <h1 className="text-3xl font-bold tracking-wide mt-5 font-playfair">{project.h1}</h1>
                                 <p className="my-5 tracking-wide text-base font-normal">{project.text}</p>
                                 <div className="flex flex-row flex-wrap">
                                     {

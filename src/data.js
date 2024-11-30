@@ -3,9 +3,9 @@ const languagesData = {
         changeLanguage: "TÜRKÇE",
         hero: {
             greeting: "Hi! 👋",
-            intro: "I'm Mertcan. I'm a front-end developer. I can craft solid and scalable front-end products. Let's meet!",
+            intro: " I'm a front-end developer. I can craft solid and scalable front-end products. Let's meet!",
             profileImg: "/assets/images/profile_picure.JPG",
-            profileName: "Mertcan",
+            profileName: "I'm Mertcan.",
             linkedInSVG: "/assets/images/linkedIn.SVG",
             linkedInLink: "https://www.linkedin.com/in/mertcan-kurt-69b22b227/",
             githubSVG: "/assets/images/github.SVG",
@@ -106,9 +106,9 @@ const languagesData = {
         changeLanguage: "ENGLISH",
         hero: {
             greeting: "Merhaba! 👋",
-            intro: "Ben Mertcan. Ben bir ön yüz geliştiricisiyim. Sağlam ve ölçeklenebilir ön yüz ürünleri oluşturabilirim. Tanışalım!",
+            intro: " Ben bir ön yüz geliştiricisiyim. Sağlam ve ölçeklenebilir ön yüz ürünleri oluşturabilirim. Tanışalım!",
             profileImg: "/assets/images/profile_picure.JPG",
-            profileName: "Mertcan",
+            profileName: "Ben Mertcan.",
             linkedInSVG: "/assets/images/linkedIn.SVG",
             linkedInLink: "https://www.linkedin.com/in/mertcan-kurt-69b22b227/",
             githubSVG: "/assets/images/github.SVG",

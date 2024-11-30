@@ -8,15 +8,17 @@ function Footer() {
     return (
         <>
             <footer className="bg-[#F4F4F4] dark:text-[#FFFFFF] dark:bg-[#2A262B]  px-[18vw] py-24 content-center text-center ">
-                <div className="flex flex-row">
-               <h1 className="text-right mr-10 w-96 font-medium text-3xl md:text-5xl tracking-normal">{footer.h1}</h1>
-               <div className="flex flex-col text-left content-center font-medium text-nowrap">
-                <a href={footer.githubLink} className="text-[#82BBFF]">{footer.githubText}</a>
-                <a href={footer.personelBlogLink} className="text-[#FFFFFF]">{footer.personelBlogText}</a>
-                <a href={footer.linkedInLink} className="text-[#419CCB]">{footer.linkedInText}</a>
-                <a href={footer.emailLink} className="text-[#EA2678]">{footer.emailText}</a>
-               </div>
-               </div>
+                <div className="flex flex-row justify-center">
+                    <div className="flex flex-col justify-center">
+                        <div className="border-b-[15px] rounded-md border-solid w-48 self-end mr-16 -mb-11 border-[#DDEEFE]"></div>
+                        <h1 className="text-right mr-10  font-medium text-3xl  tracking-normal">{footer.h1}</h1></div>
+                    <div className="flex flex-col text-left content-center font-medium text-nowrap">
+                        <a href={footer.githubLink} className="text-[#82BBFF]">{footer.githubText}</a>
+                        <a href={footer.personelBlogLink} className="text-[#0A0A14] dark:text-[#FFFFFF]">{footer.personelBlogText}</a>
+                        <a href={footer.linkedInLink} className="text-[#419CCB]">{footer.linkedInText}</a>
+                        <a href={footer.emailLink} className="text-[#EA2678]">{footer.emailText}</a>
+                    </div>
+                </div>
             </footer>
         </>
     )
