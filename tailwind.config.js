@@ -11,7 +11,9 @@ export default {
       'button-org-color':'#E92577',
 
      },
-
+     screens: {
+      'xs': '400px',
+    },
     },
   },
   plugins: [],

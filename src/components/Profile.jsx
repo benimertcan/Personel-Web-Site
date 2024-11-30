@@ -10,10 +10,10 @@ function Profile() {
         <>
             <section className="bg-[#F4F4F4] dark:text-[#FFFFFF] dark:bg-[#2A262B]  px-[18vw] py-24 content-center text-center">
             <h1 className="my-10 font-medium text-5xl leading-tight tracking-normal">{profile.profileText}</h1>
-                <div className="justify-center content-center text-center flex flex-row ">
+                <div className="justify-center content-center text-center flex flex-row xl:flex-nowrap sm:flex-wrap xs:flex-wrap">
                
-                <div className="bg-[#52525280]  w-[30rem] rounded-2xl h-[14.5rem]">
-                    <div className="bg-[#FFFFFF]  dark:bg-[#525252] w-[30rem] h-56 flex flex-col rounded-2xl -ml-3">
+                <div className="bg-[#52525280]  w-[30rem] xs:w-[25rem] rounded-2xl h-[14.5rem]">
+                    <div className="bg-[#FFFFFF]  dark:bg-[#525252] w-[30rem] xs:w-[25rem]  h-56 flex flex-col rounded-2xl -ml-3">
                         <h1 className="self-start ml-12 my-3 font-normal text-2xl text-[#EA2678] leading-8">{profile.cart.h1}</h1>
                         <div className="flex flex-row text-wrap text-left ml-12 ">
                             <div className="flex flex-col w-80 text-lg font-semibold leading-5 tracking-tight" >
@@ -31,7 +31,7 @@ function Profile() {
                         </div>
                     </div>
                 </div>
-                    <div className="w-[30rem] mx-10 text-left">
+                    <div className="w-[30rem] ml-6 xs:mt-10 text-left">
                     <h1 className="m-2">{profile.about.aboutMe}</h1>
                     <p className="m-2">{profile.about.text1}</p>
                     <p className="m-2">{profile.about.text2}</p>

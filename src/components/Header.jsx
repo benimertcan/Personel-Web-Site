@@ -14,11 +14,11 @@ function Header() {
             <header className="text-left px-[18vw] py-24 duration-500 bg-[#F4F4F4] dark:text-[#FFFFFF] dark:bg-[#2A262B] ">
             <div className='flex flex-row justify-self-end mb-10'>
               <ModeComponent />
-              <p className='font-semibold mx-3'>| </p>
+              <p className='font-semibold mx-2'>| </p>
               <LanguageChanger />
             </div>
             <div className="flex flex-col flex-wrap">
-                <div className="flex flex-row ">
+                <div className="flex flex-row xs:flex-wrap sm:flex-nowrap ">
                     <div className="w-45">
                         <h1 className="font-normal text-3xl leading-9 tracking-wide">{hero.greeting}</h1>
                         <p className="text-4xl font-medium leading-none tracking-normal mt-2 ">{hero.intro}</p>
