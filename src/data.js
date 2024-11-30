@@ -17,15 +17,15 @@ const languagesData = {
         skills: {
             h1: "Skills",
             images: [
-                 {
+                {
                     Alt: "JAVASCRIPT",
                     SRC: "/assets/images/javascript.png",
                 },
-                 {
+                {
                     Alt: "REACT",
                     SRC: "/assets/images/react.png",
                 },
-                 {
+                {
                     Alt: "REDUX",
                     SRC: "/assets/images/redux.png",
                 },
@@ -41,11 +41,11 @@ const languagesData = {
                     Alt: "FIGMA",
                     SRC: "/assets/images/figma.png",
                 }
-            ]  
+            ]
         }
         ,
         profile: {
-            profileText:"Profile",
+            profileText: "Profile",
             cart: {
                 h1: "Basic Information",
                 dateOfBirthText: "Date of Birth",
@@ -64,27 +64,31 @@ const languagesData = {
             }
         },
         projects: {
-            h1:"Projects",
-            randomJokes: {
-                h1: "Random Jokes",
-                text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi molitia.",
-                materials: ["react", "vercel", "axios", "router"],
-                viewText: "View on Github",
-                viewLink: "",
-                appText: "Go to app ->",
-                appLink: "",
-                imgLink: ""
-            },
-            areYouBored: {
-                h1: "Are you bored?",
-                text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi molitia.",
-                materials: ["react", "redux", "vercel", "axios", "router"],
-                viewText: "View on Github",
-                viewLink: "",
-                appText: "Go to app ->",
-                appLink: "",
-                imgLink: ""
-            }
+            h1: "Projects",
+            myProjects: [
+                {
+                    id:"randomjokes",
+                    h1: "Random Jokes",
+                    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi molitia.",
+                    materials: ["react", "vercel", "axios", "router"],
+                    viewText: "View on Github",
+                    viewLink: "",
+                    appText: "Go to app ->",
+                    appLink: "",
+                    imgLink: "",
+                },
+                {
+                    id:"areyoubored",
+                    h1: "Are you bored?",
+                    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi molitia.",
+                    materials: ["react", "redux", "vercel", "axios", "router"],
+                    viewText: "View on Github",
+                    viewLink: "",
+                    appText: "Go to app ->",
+                    appLink: "",
+                    imgLink: "",
+                }
+            ],
         },
         footer: {
             h1: "Let's work together on your next product.",
@@ -116,15 +120,15 @@ const languagesData = {
         skills: {
             h1: "Yetenekler",
             images: [
-                 {
+                {
                     Alt: "JAVASCRIPT",
                     SRC: "/assets/images/javascript.png",
                 },
-                 {
+                {
                     Alt: "REACT",
                     SRC: "/assets/images/react.png",
                 },
-                 {
+                {
                     Alt: "REDUX",
                     SRC: "/assets/images/redux.png",
                 },
@@ -144,7 +148,7 @@ const languagesData = {
         }
         ,
         profile: {
-            profileText:"Profil",
+            profileText: "Profil",
             cart: {
                 h1: "Temel Bilgiler",
                 dateOfBirthText: "Doğum tarihi",
@@ -163,27 +167,31 @@ const languagesData = {
             }
         },
         projects: {
-            h1:"Projects",
-            randomJokes: {
-                h1: "Random Jokes",
-                text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi molitia.",
-                materials: ["react", "vercel", "axios", "router"],
-                viewText: "Github' ta göster",
-                viewLink: "",
-                appText: "Uygulamaya git ->",
-                appLink: "",
-                imgLink: ""
-            },
-            areYouBored: {
-                h1: "Are you bored?",
-                text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi molitia.",
-                materials: ["react", "redux", "vercel", "axios", "router"],
-                viewText: "Github' ta göster",
-                viewLink: "",
-                appText: "Uygulamaya git ->",
-                appLink: "",
-                imgLink: ""
-            }
+            h1: "Projects",
+            myProjects: [
+                {
+                    id:"randomjokes",
+                    h1: "Random Jokes",
+                    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi molitia.",
+                    materials: ["react", "vercel", "axios", "router"],
+                    viewText: "Github' ta göster",
+                    viewLink: "",
+                    appText: "Uygulamaya git ->",
+                    appLink: "",
+                    imgLink: ""
+                },
+                {
+                    id:"areyoubored",
+                    h1: "Are you bored?",
+                    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi molitia.",
+                    materials: ["react", "redux", "vercel", "axios", "router"],
+                    viewText: "Github' ta göster",
+                    viewLink: "",
+                    appText: "Uygulamaya git ->",
+                    appLink: "",
+                    imgLink: ""
+                }
+            ],
         },
         footer: {
             h1: "Bir sonraki ürününüz üzerinde birlikte çalışalım.",
