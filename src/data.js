@@ -64,6 +64,7 @@ const languagesData = {
             }
         },
         projects: {
+            h1:"Projects",
             randomJokes: {
                 h1: "Random Jokes",
                 text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi molitia.",
@@ -162,6 +163,7 @@ const languagesData = {
             }
         },
         projects: {
+            h1:"Projects",
             randomJokes: {
                 h1: "Random Jokes",
                 text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi molitia.",

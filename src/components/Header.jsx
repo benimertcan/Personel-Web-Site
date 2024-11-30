@@ -18,7 +18,7 @@ function Header() {
               <LanguageChanger />
             </div>
             <div className="flex flex-col flex-wrap">
-                <div className="flex flex-row xs:flex-wrap sm:flex-nowrap ">
+                <div className="flex flex-row  flex-wrap ">
                     <div className="w-45">
                         <h1 className="font-normal text-3xl leading-9 tracking-wide">{hero.greeting}</h1>
                         <p className="text-4xl font-medium leading-none tracking-normal mt-2 ">{hero.intro}</p>
