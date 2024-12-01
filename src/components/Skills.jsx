@@ -8,7 +8,8 @@ function Skills() {
     const images = skills.images;
     return (
         <>
-            <section className="py-24  min-h-80  content-center bg-[#FFFFFF] text-center dark:bg-[#484148] dark:text-[#F4F4F4]">
+            <section className="pb-24  min-h-80  content-center bg-[#FFFFFF] text-center dark:bg-[#484148] dark:text-[#F4F4F4]">
+            <div className="w-32 h-32 border-[16px] border-solid border-[#D9D9D9] rounded-full place-self-end mr-[25vw] -mt-16"></div>
                 <div className="px-[18vw] ">
                 <h1 className="my-10 font-medium text-5xl leading-tight tracking-normal">{skills.h1}</h1>
                 <div className="flex flex-row justify-evenly flex-wrap ">

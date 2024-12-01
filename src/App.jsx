@@ -19,9 +19,8 @@ function App() {
     <>
       <LanguageProvider >
         <Header />
-        <div className="w-32 h-32 border-[16px] border-solid border-[#D9D9D9] rounded-full -mt-16 place-self-end mr-[25vw]"></div>
+        
         <Skills />
-       
         <Profile/>
         <Projects/>
         <Footer/>
