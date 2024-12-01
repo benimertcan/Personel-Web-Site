@@ -72,7 +72,7 @@ function Profile() {
                             </div>
                         </div>
                         <div className="w-[30rem] ml-6 mt-16 text-left">
-                            <div className="border-b-[15px] -ml-1 rounded-md border-solid w-24 -mb-11 border-[#DDEEFE]"></div>
+                            <div className="border-b-[15px] -ml-1 rounded-md border-solid w-24 -mb-11 border-[#82BBFF] dark:border-[#82BBFF]"></div>
                             <h1 className="m-2 text-2xl font-normal	 font-playfair">{profile.about.aboutMe}</h1>
                             <p className="m-2">{profile.about.text1}</p>
                             <p className="m-2">{profile.about.text2}</p>

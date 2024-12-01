@@ -27,7 +27,8 @@ function Projects() {
                                     <a href={project.appLink}>{project.appText}</a>
                                 </div>
                                 
-                                <img src={project.imgLink} className="mt-auto -mb-6" alt={project.imgLink} ></img>
+                                <img src={project.imgLink} className="mt-auto -mb-6" alt={project.imgLink} >
+                                </img>
                             </div>
                         ))
                     }
