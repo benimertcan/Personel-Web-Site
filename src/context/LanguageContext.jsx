@@ -41,7 +41,9 @@ export const LanguageProvider = ({ children }) => {
   }, [language]);
   
   if (loading) {
-    return toast.loading("LOADING...") ;
+    return toast.loading("LOADING...",{
+      duration:1000
+    }) ;
   }else{
     if(language==="tr"){
       toast.success("Sayfa yüklendi!")
