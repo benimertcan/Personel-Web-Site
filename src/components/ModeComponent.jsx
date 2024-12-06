@@ -4,9 +4,12 @@ import { IoMoon } from "react-icons/io5";
 import { FaCircle } from "react-icons/fa";
 import useLocalStorage from "../hooks/useLocalStorage";
 import { useEffect } from "react";
+import { toast } from "react-toastify";
+import { useLanguage } from "../context/LanguageContext";
 
 function ModeComponent() {
-    
+  const { translate } = useLanguage()
+  const lang = translate("changeLanguage");
     const [dark, setDark] = useLocalStorage("theme", null);
     useEffect(() => {
         const theme = JSON.parse(localStorage.getItem("theme"));
@@ -28,7 +31,15 @@ function ModeComponent() {
           }
         }
       }, []);
-      
+      useEffect(()=>{
+        if(lang==="TÜRKÇE"){
+          toast.success("Mode changed.")
+        }
+        else{
+          toast.success("Mod değişti.")
+        }
+          
+      },[dark])
     const darkModeHandler = () => {
         setDark(!dark);
         document.body.classList.toggle("dark");

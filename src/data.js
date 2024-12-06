@@ -59,8 +59,8 @@ const languagesData = {
             },
             about: {
                 aboutMe: "About me",
-                text1: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi molitia.",
-                text2: "Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam! "
+                text1: "Since my childhood, I have always been involved with computers. My journey into programming languages began during high school, where I studied in the Information Systems program. I furthered my education by studying Computer Programming at Tekirdağ Namık Kemal University. I completed my internship as a C# Developer at Tunca Teknik Makina, a company located in Bursa NOSAB, where I contributed to the development of ERP software. During my internship, I not only enhanced my skills as a C# Developer but also became a proficient Hardware Specialist. Currently, I am expanding my expertise by attending a Frontend Developer course at Workintech.",
+                text2: "I am a quick learner who is always open to self-improvement and personal growth. I have a strong passion for exploring new concepts and technologies, and I never shy away from conducting in-depth research to expand my knowledge and skills. My curiosity and dedication drive me to continuously seek opportunities to learn and stay updated with the latest advancements in my field."
             }
         },
         projects: {
@@ -174,8 +174,8 @@ const languagesData = {
             },
             about: {
                 aboutMe: "Hakkımda",
-                text1: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi molitia.",
-                text2: "Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam! "
+                text1: "Çocukluğumdan beri bilgisayarlarla her zaman iç içe oldum. Programlama dillerine olan yolculuğum, lise yıllarında Bilgi Sistemleri programında eğitim aldığım dönemde başladı. Eğitimime Tekirdağ Namık Kemal Üniversitesi Bilgisayar Programcılığı bölümünde devam ettim. Stajımı Bursa NOSAB’da bulunan Tunca Teknik Makina şirketinde C# Geliştiricisi olarak tamamladım ve ERP yazılımının geliştirilmesine katkı sağladım. Stajım sırasında yalnızca C# Geliştiricisi olarak becerilerimi geliştirmekle kalmayıp, aynı zamanda donanım uzmanı olarak da yetkinlik kazandım. Şu anda, Workintech’te Frontend Geliştirici kursuna katılarak uzmanlığımı genişletiyorum.",
+                text2: "Hızlı öğrenen, kendini geliştirmeye her zaman açık bir bireyim. Yeni konseptler ve teknolojiler keşfetmeye büyük bir tutkum var ve bilgimi artırmak için derinlemesine araştırma yapmaktan asla çekinmem. Merakım ve kararlılığım, sürekli öğrenme fırsatlarını takip etmeme ve alanımdaki en son gelişmeleri öğrenmeye devam etmeme olanak sağlıyor."
             }
         },
         projects: {
