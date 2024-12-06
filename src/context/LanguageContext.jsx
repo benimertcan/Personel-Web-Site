@@ -23,7 +23,6 @@ export const LanguageProvider = ({ children }) => {
         setTranslations(response.data);
       } catch (error) {
         console.error('Error fetching translations:', error);
-        setTranslations(languagesData[language]);
       } finally {
         setLoading(false);
       }
@@ -32,7 +31,7 @@ export const LanguageProvider = ({ children }) => {
   }, [language]);
   
   if (loading) {
-    return <div className='text-sky-800 font-semibold flex  text-center justify-self-center place-self-center'>LOADİNG.....</div>;
+    return <h1 className='text-sky-800 font-semibold flex  text-center justify-self-center place-self-center'>LOADİNG.....</h1>;
   }
   
 

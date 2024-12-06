@@ -19,7 +19,6 @@ function App() {
     <>
       <LanguageProvider >
         <Header />
-        
         <Skills />
         <Profile/>
         <Projects/>
