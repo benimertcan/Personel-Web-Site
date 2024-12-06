@@ -34,23 +34,19 @@ export const LanguageProvider = ({ children }) => {
         toast.error(error)
       } finally {
         setLoading(false);
-      
+        if(language==="tr"){
+          toast.success("Sayfa yüklendi!")
+        }
+        else{
+          toast.success("Page loaded!")
+        }
       }
     };
     fetchTranslations();
   }, [language]);
   
   if (loading) {
-    return toast.loading("LOADING...",{
-      duration:1000
-    }) ;
-  }else{
-    if(language==="tr"){
-      toast.success("Sayfa yüklendi!")
-    }
-    else{
-      toast.success("Page loaded!")
-    }
+    return <h1 className='text-sky-800 font-semibold flex  text-center justify-self-center place-self-center'>LOADİNG.....</h1>;
   }
   
 
