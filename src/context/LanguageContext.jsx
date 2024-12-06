@@ -34,15 +34,7 @@ export const LanguageProvider = ({ children }) => {
         toast.error(error)
       } finally {
         setLoading(false);
-        if(loading)
-       {
-        if(language==="tr"){
-          toast.success("Sayfa yüklendi!")
-        }
-        else{
-          toast.success("Page loaded!")
-        }
-       }
+      
       }
     };
     fetchTranslations();
@@ -50,6 +42,13 @@ export const LanguageProvider = ({ children }) => {
   
   if (loading) {
     return toast.loading("LOADING...") ;
+  }else{
+    if(language==="tr"){
+      toast.success("Sayfa yüklendi!")
+    }
+    else{
+      toast.success("Page loaded!")
+    }
   }
   
 
